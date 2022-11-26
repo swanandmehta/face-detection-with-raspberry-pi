@@ -33,7 +33,6 @@ def init():
             cv2.putText(frame, "Person", (x, y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 255))
 
         cv2.imwrite(config_map["output_img_path"] + "/" + str(int(time.time())) + ".png", frame)
-        cv2.imshow('Video', frame)
         video.init()
 
     video_capture.release()
