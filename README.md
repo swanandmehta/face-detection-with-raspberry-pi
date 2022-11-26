@@ -12,11 +12,11 @@ and create short video of it with 5 FPS and once done it will remove all those i
 by default the img are stored under output/frame videos are stored under output/video and cascade is stored under input folder
 
 ### How to run it ###
-sudo apt-get install libatlas-base-dev (Just needed for PI)
-Go to folder where you have cloned the repo
-python3 -m venv env //This is if you dont want to mess with your current python installation
-env/bin/pip install -r requirements.txt //Installing dependencies like open-cv and stuff
-env/bin/python main.py //Run the code
-Profit ????
+1. sudo apt-get install libatlas-base-dev (Just needed for PI)
+2. Go to folder where you have cloned the repo
+3. python3 -m venv env //This is if you dont want to mess with your current python installation
+4. env/bin/pip install -r requirements.txt //Installing dependencies like open-cv and stuff
+5. env/bin/python main.py //Run the code
+6. Profit ????
 
 It goes without saying but please run commands dont add comments in the terminal while running them
